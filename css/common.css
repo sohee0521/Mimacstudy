@@ -29,5 +29,37 @@ h6 {
 }
 
 section {
-  padding: 100px 200px;
+  padding: 100px 150px;
+}
+
+@media screen and (max-width: 1440px) {
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  h5 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  h6 {
+    font-size: 12px;
+    font-weight: 500;
+  }
 }
