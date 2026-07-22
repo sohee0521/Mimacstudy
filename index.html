@@ -1,19 +1,25 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mimacstudy</title>
+    <bottom_wrap_4 charset="UTF-8" />
+    <bottom_wrap_4
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Mimacstudy - 대성마이맥</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/common.css" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <div class="wrap">
+      <!-- HEADER -->
       <header>
         <div class="header_top">
           <div class="header_top_left">
             <a href="#">
               <div class="logo_wrap">
-                <img src="/img/logo.png" alt="" />
+                <img src="/img/logo.png" alt="대성마이맥" />
               </div>
             </a>
             <div class="grade_btn">
@@ -27,7 +33,7 @@
             <div class="search_bar">
               <h6>선생님, 강좌 검색</h6>
               <div class="search_icon">
-                <img src="img/search_icon.png" alt="" />
+                <img src="/img/search_icon.png" alt="" />
               </div>
             </div>
           </a>
@@ -40,68 +46,61 @@
               </div>
             </a>
             <div class="menu_wrap">
-              <a href="#">
-                <h5 class="menu">선생님</h5>
-              </a>
-              <a href="#">
-                <h5 class="menu">모의고사</h5>
-              </a>
-              <a href="#">
-                <h5 class="menu">대학별고사</h5>
-              </a>
-              <a href="#">
-                <h5 class="menu">입시정보</h5>
-              </a>
-              <a href="#">
-                <h5 class="menu">온라인서점</h5>
-              </a>
+              <a href="#"><h5 class="menu">선생님</h5></a>
+              <a href="#"><h5 class="menu">모의고사</h5></a>
+              <a href="#"><h5 class="menu">대학별고사</h5></a>
+              <a href="#"><h5 class="menu">입시정보</h5></a>
+              <a href="#"><h5 class="menu">온라인서점</h5></a>
               <div class="vertical_bar"></div>
-              <a href="#">
-                <h5 class="menu menu_bold">2027 대성패스</h5>
-              </a>
+              <a href="#"><h5 class="menu menu_bold">2027 대성패스</h5></a>
             </div>
           </div>
           <div class="header_bottom_right">
-            <a href="#">
-              <h6 class="d_day">수능 D-172</h6>
-            </a>
-            <a href="#">
-              <h6>로그인</h6>
-            </a>
-            <a href="#">
-              <h6>회원가입</h6>
-            </a>
-            <a href="#">
-              <h6>고객센터</h6>
-            </a>
+            <a href="#"><h6 class="d_day">수능 D-172</h6></a>
+            <a href="#"><h6>로그인</h6></a>
+            <a href="#"><h6>회원가입</h6></a>
+            <a href="#"><h6>고객센터</h6></a>
           </div>
         </div>
       </header>
+
+      <!-- header end -->
       <section class="section_1">
         <div class="con_top_wrap_1">
           <div class="main_banner">
             <a href="#">
-              <img src="/img/main_banner.png" alt="" />
+              <img src="/img/main_banner.png" alt="2027 대성패스" />
             </a>
           </div>
           <div class="banner_description">
             <h6>
-              전 강좌 수능까지 무제한! <br />
-              지금 이 해택
+              전 강좌 수능까지 무제한!<br />
+              지금 이 혜택
             </h6>
             <h3>07/13(월) 마감</h3>
             <button>
               <h5>지금 바로 구매하기</h5>
             </button>
           </div>
-        </div>
-        <div class="con_top_wrap_2">
-          <div class="sub_banner_wrap">
-            <div class="sub_banner_1"></div>
-            <div class="sub_banner_2"></div>
+          <div class="mobile_banner_description">
+            <h6>지금 바로 구매하기</h6>
+            <span>&rarr;</span>
           </div>
+        </div>
+
+        <div class="con_top_wrap_1">
+          <div class="sub_banner_wrap">
+            <div class="sub_banner_1">
+              <a href="#"><img src="img/sub_banner_1.png" alt="" /></a>
+            </div>
+            <div class="sub_banner_2">
+              <a href="#"><img src="img/sub_banner_2.png" alt="" /></a>
+            </div>
+          </div>
+
           <div class="evaluation">
             <h6>고3 6평 등급컷</h6>
+
             <div class="detail_wrap">
               <div class="subject_wrap">
                 <h6>화작</h6>
@@ -110,107 +109,529 @@
                 <h6>미적</h6>
                 <h6>기하</h6>
               </div>
-              <div class="score_wrap"></div>
+
+              <div class="score_board">
+                <div class="grade_header">
+                  <h6>1등급</h6>
+                  <h6>2등급</h6>
+                </div>
+                <div class="score_wrap">
+                  <div class="score">
+                    <h6>89</h6>
+                    <h6>82</h6>
+                  </div>
+                  <div class="score">
+                    <h6>87</h6>
+                    <h6>80</h6>
+                  </div>
+                  <div class="score">
+                    <h6>86</h6>
+                    <h6>76</h6>
+                  </div>
+                  <div class="score">
+                    <h6>80</h6>
+                    <h6>70</h6>
+                  </div>
+                  <div class="score">
+                    <h6>83</h6>
+                    <h6>72</h6>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <button class="predict_btn">합격 예측</button>
           </div>
         </div>
       </section>
+
+      <!-- section 2 -->
       <section class="section_2">
         <h1>마이맥 선생님</h1>
         <div class="capsule_wrap">
-          <div class="capsule">국어</div>
-          <div class="capsule">수학</div>
-          <div class="capsule">사회</div>
-          <div class="capsule">과학</div>
-          <div class="capsule">한국사</div>
+          <div class="capsule active"><h4>국어</h4></div>
+          <div class="capsule"><h4>수학</h4></div>
+          <div class="capsule"><h4>사회</h4></div>
+          <div class="capsule"><h4>과학</h4></div>
+          <div class="capsule"><h4>한국사</h4></div>
         </div>
+
         <div class="con_wrap_2">
           <div class="con_2">
             <div class="gradient_wrap">
-              <img src="/img/gradient.png" alt="">
+              <img src="/img/gradient.png" alt="" />
             </div>
-            <div class="img_wrap_2">
-              <img src="/img/teacher_1.png" alt="">
+            <div class="img_wrap_4_2">
+              <img src="/img/teacher_1.png" alt="" />
             </div>
             <div class="top_wrap_2">
               <h4><span>국어</span><span>김승리</span></h4>
               <div class="heart_wrap">
-                <a href=""><img src="/img/heart_stroke.png" alt="" /></a>
-                
+                <a href="#"><img src="/img/heart_stroke.png" alt="" /></a>
               </div>
             </div>
             <div class="bottom_wrap_2">
-              <a href="">
+              <a href="#">
                 <div class="con_title_wrap_2">
-                <h4>지금 당신에게 필요한 강의</h4>
-                 <h2>2027 결격사유</h2>
-               </div>
-              <div class="right_arrow_icon">
-                  <img src="/img/right_arrow_icon.png" alt="">
-              </div>
+                  <h5>지금 당신에게 필요한 강의</h5>
+                  <h2>2027 결격사유</h2>
+                </div>
+                <div class="right_arrow_icon">
+                  <img src="/img/right_arrow_icon.png" alt="" />
+                </div>
               </a>
             </div>
-          
           </div>
           <div class="con_2">
             <div class="gradient_wrap">
-              <img src="/img/gradient.png" alt="">
+              <img src="/img/gradient.png" alt="" />
             </div>
-            <div class="img_wrap_2">
-              <img src="/img/teacher_2.png" alt="">
+            <div class="img_wrap_4_2">
+              <img src="/img/teacher_2.png" alt="" />
             </div>
             <div class="top_wrap_2">
               <h4><span>국어</span><span>유대종</span></h4>
               <div class="heart_wrap">
-                <a href=""><img src="/img/heart_stroke.png" alt="" /></a>
-                
+                <a href="#"><img src="/img/heart_stroke.png" alt="" /></a>
               </div>
             </div>
             <div class="bottom_wrap_2">
-              <a href="">
+              <a href="#">
                 <div class="con_title_wrap_2">
-                <h4>이제는 속도전이다!</h4>
-                 <h2>2027 진또배기 & 이뮨</h2>
-               </div>
-              <div class="right_arrow_icon">
-                  <img src="/img/right_arrow_icon.png" alt="">
-              </div>
+                  <h5>이제는 속도전이다!</h5>
+                  <h2>2027 진또배기 & 이뮨</h2>
+                </div>
+                <div class="right_arrow_icon">
+                  <img src="/img/right_arrow_icon.png" alt="" />
+                </div>
               </a>
             </div>
-          
           </div>
           <div class="con_2">
             <div class="gradient_wrap">
-              <img src="/img/gradient.png" alt="">
+              <img src="/img/gradient.png" alt="" />
             </div>
-            <div class="img_wrap_2">
-              <img src="/img/teacher_3.png" alt="">
+            <div class="img_wrap_4_2">
+              <img src="/img/teacher_3.png" alt="" />
             </div>
             <div class="top_wrap_2">
               <h4><span>국어</span><span>정석민</span></h4>
               <div class="heart_wrap">
-                <a href=""><img src="/img/heart_stroke.png" alt="" /></a>
-                
+                <a href="#"><img src="/img/heart_stroke.png" alt="" /></a>
               </div>
             </div>
             <div class="bottom_wrap_2">
-              <a href="">
+              <a href="#">
                 <div class="con_title_wrap_2">
-                <h4>정석국어 시즌3</h4>
-                 <h2>2027 비문학 원리와 실천</h2>
-               </div>
-              <div class="right_arrow_icon">
-                  <img src="/img/right_arrow_icon.png" alt="">
-              </div>
+                  <h5>정석국어 시즌3</h5>
+                  <h2>2027 비문학 원리와 실천</h2>
+                </div>
+                <div class="right_arrow_icon">
+                  <img src="/img/right_arrow_icon.png" alt="" />
+                </div>
               </a>
             </div>
-          
           </div>
-          
-          
+        </div>
+
+        <div class="teacher_exhibition">
+          <h4>선생님 기획전</h4>
+          <div class="exhibition_box">
+            <div class="info">
+              <h5><span>수학</span><span>정상모</span></h5>
+              <h4>확통 완성다짐 이벤트</h4>
+            </div>
+            <a href="#"><h6>더보기</h6></a>
+          </div>
+          <div class="exhibition_box">
+            <div class="info">
+              <h5><span>과학</span><span>엄기은</span></h5>
+              <h4>6평 후기 이벤트 준비중</h4>
+            </div>
+            <a href="#"><h6>더보기</h6></a>
+          </div>
+        </div>
       </section>
-      <section class="section_3"></section>
-      <footer></footer>
+
+      <!-- section_2 end -->
+
+      <section class="section_3">
+        <div class="top_wrap">
+          <h1>모의고사</h1>
+          <a href="#" class="more_btn">
+            <h6>더보기</h6>
+            <img src="/img/more_btn_icon.png" alt="" />
+          </a>
+        </div>
+        <div class="capsule_wrap">
+          <div class="capsule active"><h4>선생님</h4></div>
+          <div class="capsule"><h4>모의고사</h4></div>
+        </div>
+        <div class="wrap_3">
+          <div class="nav_btn prev">
+            <img src="/img/more_btn_icon.png" alt="" />
+          </div>
+          <div class="con_wrap_3">
+            <div class="main_con_wrap_3">
+              <div class="main_con_img_wrap_3">
+                <img src="/img/exam_1.png" alt="The PREMIUM 모의고사" />
+              </div>
+              <div class="main_con_info_3">
+                <h6 class="blue_txt_3">성적에 가치를 The하다</h6>
+                <h3>The PREMIUM 모의고사</h3>
+                <ul>
+                  <li>
+                    <h6><span>01</span> 최정예 전문가들이 만든 마스터피스</h6>
+                  </li>
+                  <li>
+                    <h6><span>02</span> 전 영역 해설강의</h6>
+                  </li>
+                  <li>
+                    <h6><span>03</span> 학습 Q&A 서비스</h6>
+                  </li>
+                  <li>
+                    <h6><span>04</span> 빈틈없는 피드백 맞춤 서비스</h6>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="sub_con_wrap_3">
+              <div class="sub_con_img_wrap_3">
+                <img src="/img/exam_2.png" alt="" />
+                <h5>강대모의고사X 수학</h5>
+              </div>
+              <div class="sub_con_img_wrap_3">
+                <img src="/img/exam_3.png" alt="" />
+                <h5>이감국어</h5>
+              </div>
+              <div class="sub_con_img_wrap_3">
+                <img src="/img/exam_4.png" alt="" />
+                <h5>상상국어</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav_btn next">
+            <img src="/img/more_btn_icon.png" alt="" />
+          </div>
+        </div>
+        <div class="dots_center_3">
+          <span class="dot_3 active_3"></span><span class="dot_3"></span>
+          <span class="dot_3"></span><span class="dot_3"></span>
+          <span class="dot_3"></span><span class="dot_3"></span>
+        </div>
+      </section>
+
+      <!-- 마이맥 핫클립 -->
+      <section class="section_4">
+        <div class="top_wrap">
+          <h1>마이맥 핫클립</h1>
+          <div class="sort_select">
+            <h6>인기</h6>
+          </div>
+        </div>
+        <div class="tab_wrap">
+          <h3 class="tab active">마이맥 케스트</h3>
+          <h3 class="tab">YouTube</h3>
+        </div>
+        <div class="con_wrap_4">
+          <div class="con_4">
+            <div class="img_wrap_4">
+              <img src="/img/mymac_video_1.png" alt="" />
+            </div>
+            <div class="con_title_wrap_4">
+              <div class="top_wrap_4">
+                <h4>6평 후 혼란한 학생들 모두 모여라!</h4>
+                <h6>6평 후 확통 학습법</h6>
+              </div>
+              <div class="bottom_wrap_4">
+                <h6 class="teacher">수학 정상모</h6>
+                <h6 class="date">2026.06.11</h6>
+              </div>
+            </div>
+          </div>
+          <div class="con_4">
+            <div class="img_wrap_4">
+              <img src="/img/mymac_video_2.png" alt="" />
+            </div>
+            <div class="con_title_wrap_4">
+              <div class="top_wrap_4">
+                <h4>6평 이후 국어 학습 로드맵</h4>
+                <h6>6평 후, [목표 등급별 학습 커리큘럼]</h6>
+              </div>
+              <div class="bottom_wrap_4">
+                <h6 class="teacher">국어 김젬마</h6>
+                <h6 class="date">2026.06.16</h6>
+              </div>
+            </div>
+          </div>
+          <div class="con_4">
+            <div class="img_wrap_4">
+              <img src="/img/mymac_video_3.png" alt="" />
+            </div>
+            <div class="con_title_wrap_4">
+              <div class="top_wrap_4">
+                <h4>아직 점과 점사이의 거리 공식을 모른다면?</h4>
+                <h6>선생님 미워요ㅠㅠ</h6>
+              </div>
+              <div class="bottom_wrap_4">
+                <h6 class="teacher">수학 한석원</h6>
+                <h6 class="date">2024.01.16</h6>
+              </div>
+            </div>
+          </div>
+          <div class="con_4">
+            <div class="img_wrap_4">
+              <img src="/img/mymac_video_4.png" alt="" />
+            </div>
+            <div class="con_title_wrap_4">
+              <div class="top_wrap_4">
+                <h4>기출분석, 더 이상 스트레스 받지 마세요</h4>
+                <h6>기출, 어떻게 기억하느냐가 중요합니다!</h6>
+              </div>
+              <div class="bottom_wrap_4">
+                <h6 class="teacher">수학 정병호</h6>
+                <h6 class="date">2026.05.27</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section_4 end -->
+
+      <section class="section_5">
+        <div class="top_wrap">
+          <h1>입시정보</h1>
+
+          <a href="#" class="more_btn">
+            <h6>더보기</h6>
+            <img src="/img/more_btn_icon.png" alt="" />
+          </a>
+        </div>
+        <div class="tab_wrap">
+          <h3 class="tab active">입시뉴스</h3>
+          <h3 class="tab">입시전략</h3>
+          <h3 class="tab">대입보도자료</h3>
+        </div>
+        <div class="con_wrap_5">
+          <div class="news_list">
+            <a href="#" class="con_5">
+              <h4>
+                단독] [2027수시] 상위15개대 무전공(유형1) 1613명 ‘17명 감소’..
+                숙대 수시 합류 ‘...
+              </h4>
+              <h6 class="date">2026.07.14</h6>
+            </a>
+            <a href="#" class="con_5">
+              <h4>
+                [단독] [2027 6월모평 실채점 배치표] 서울대 의예 416점 '최고'..
+                연대 의예 415점...
+              </h4>
+              <h6 class="date">2026.07.12</h6>
+            </a>
+            <a href="#" class="con_5">
+              <h4>
+                [단독] 2026서울대 신입생 6인 학종 대비법.. ‘학교 안에서 찾은
+                흥미와 성장’
+              </h4>
+              <h6 class="date">2026.07.08</h6>
+            </a>
+          </div>
+          <div class="entrance_banner">
+            <img src="/img/news_banner.png" alt="2027 신학기 온라인 설명회" />
+            <h4>2027 6월 모의평가 설명회</h4>
+          </div>
+        </div>
+        <div class="entrance_link_wrap">
+          <a href="#" class="link_btn"
+            ><h4>AI수시 패키지</h4>
+            <span>→</span></a
+          >
+          <a href="#" class="link_btn"
+            ><h4>2027 수시·정시</h4>
+            <span>→</span></a
+          >
+          <a href="#" class="link_btn"
+            ><h4>대학정보</h4>
+            <span>→</span></a
+          >
+          <a href="#" class="link_btn"
+            ><h4>2028 대입일정</h4>
+            <span>→</span></a
+          >
+        </div>
+      </section>
+
+      <!-- section_5 end  -->
+
+      <section class="section_6">
+        <div class="top_wrap">
+          <h1>온라인 서점</h1>
+          <a href="#" class="more_btn">
+            <h6>더보기</h6>
+            <img src="/img/more_btn_icon.png" alt="" />
+          </a>
+        </div>
+        <div class="tab_wrap">
+          <h3 class="tab active">BEST</h3>
+          <h3 class="tab">유형별</h3>
+          <h3 class="tab">영역별</h3>
+          <h3 class="tab">출판사별</h3>
+          <h3 class="tab">모의고사</h3>
+        </div>
+        <div class="wrap_6">
+          <div class="nav_btn prev">
+            <img src="/img/more_btn_icon.png" alt="" />
+          </div>
+          <div class="con_wrap_6">
+            <div class="con_6">
+              <div class="img_wrap_6">
+                <img src="/img/book_1.png" alt="" />
+              </div>
+
+              <div class="con_title_wrap_6">
+                <div class="book_tag_wrap">
+                  <h6 class="tag">EBS</h6>
+                  <h6 class="tag">국어</h6>
+                </div>
+                <h5>
+                  EBS 수능완성 국어영역 독서·문학·화법과작문 (2027 수능대비)
+                </h5>
+                <h5>14,040원 <span class="discount">(10%)</span></h5>
+              </div>
+            </div>
+
+            <div class="con_6">
+              <div class="img_wrap_6">
+                <img src="/img/book_2.png" alt="" />
+              </div>
+
+              <div class="con_title_wrap_6">
+                <div class="book_tag_wrap">
+                  <h6 class="tag">비상</h6>
+                  <h6 class="tag">과학</h6>
+                </div>
+                <h5>완자 물리학 I</h5>
+                <h5>19,800원 <span class="discount">(10%)</span></h5>
+              </div>
+            </div>
+
+            <div class="con_6">
+              <div class="img_wrap_6">
+                <img src="/img/book_3.png" alt="" />
+              </div>
+              <div class="con_title_wrap_6">
+                <div class="book_tag_wrap">
+                  <h6 class="tag">마더텅</h6>
+                  <h6 class="tag">사회</h6>
+                </div>
+                <h5>마더텅 수능기출문제집 윤리와 사상</h5>
+                <h5>19,710원 <span class="discount">(10%)</span></h5>
+              </div>
+            </div>
+
+            <div class="con_6">
+              <div class="img_wrap_6">
+                <img src="/img/book_4.png" alt="" />
+              </div>
+              <div class="con_title_wrap_6">
+                <div class="book_tag_wrap">
+                  <h6 class="tag">수경</h6>
+                  <h6 class="tag">수학</h6>
+                </div>
+                <h5>(22개정) 자이스토리 고2 미적분 1(2026)</h5>
+                <h5>19,800원 <span class="discount">(10%)</span></h5>
+              </div>
+            </div>
+            <div class="con_6">
+              <div class="img_wrap_6">
+                <img src="/img/book_5.png" alt="" />
+              </div>
+              <div class="con_title_wrap_6">
+                <div class="book_tag_wrap">
+                  <h6 class="tag">진학사</h6>
+                  <h6 class="tag">영어</h6>
+                </div>
+                <h5>블랙라벨 영어 내신 어법</h5>
+                <h5>16,200원 <span class="discount">(10%)</span></h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav_btn next">
+            <img src="/img/more_btn_icon.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- section_6 end -->
+      <footer>
+        <div class="footer_top">
+          <div class="footer_links">
+            <a href="#"><h6>회사소개</h6></a>
+            <a href="#"><h6>개인정보처리방침</h6></a>
+            <a href="#"><h6>이용약관</h6></a>
+            <a href="#"><h6>사이트맵</h6></a>
+            <a href="#"><h6>찾아오시는길</h6></a>
+            <a href="#"><h6>제휴·단체 문의</h6></a>
+            <a href="#"><h6>저작권 침해 신고</h6></a>
+          </div>
+          <div class="sns_links">
+            <a href="#"><h6>인스타그램</h6></a>
+            <a href="#"><h6>페이스북</h6></a>
+            <a href="#"><h6>유튜브</h6></a>
+            <a href="#"><h6>블로그</h6></a>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="company_info">
+            <h4>주식회사 디지털대성</h4>
+            <h6>
+              주소 : 서울시 서초구 방배로 181 (방배동. 단우빌딩 6,7,8층)
+              (주)디지털대성 | 대표이사 : 김희선
+            </h6>
+            <h6>
+              사업자 등록번호 : 114-81-96124 | 통신판매업 신고증 : 2011-서울
+              서초 - 0170호
+            </h6>
+            <h6>
+              호스팅서비스 사업자 : (주)디지털대성 | 개인정보보호 책임자 :
+              김승우
+            </h6>
+            <h6>학원설립·운영등록번호 : 제10281호 디지털대성원격학원</h6>
+            <h6>
+              (주)디지털대성 고객센터 : 02-5252-110 | 이메일 :
+              help@mimacstudy.com
+            </h6>
+          </div>
+          <div class="company_info sub_info">
+            <h4>마이맥북스</h4>
+            <h6>
+              주소 : 서울특별시 서초구 방배로 181, 3층 (방배동 단우빌딩) |
+              대표이사 : 김희선
+            </h6>
+            <h6>
+              사업자 등록번호 : 874-85-03104 | 통신판매업 신고증 :
+              2026-서울서초-1302호
+            </h6>
+            <h6>고객센터 : 02-5252-110 | 이메일 : help@mimacstudy.com</h6>
+          </div>
+          <h6 class="copyright">
+            copyright since2012 (주)디지털대성 All rights reserved.
+          </h6>
+
+          <div class="footer_right_brand">
+            <div class="cert_icons">
+              <h6>toss payments</h6>
+              <h6>ISMS 인증</h6>
+            </div>
+            <div class="brand_logo"><h2>대성 MIMAC</h2></div>
+          </div>
+        </div>
+      </footer>
     </div>
+
+    <script src="/js/main.js"></script>
   </body>
 </html>
