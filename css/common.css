@@ -66,6 +66,75 @@ section {
   padding: 80px 150px;
 }
 
+.capsule_wrap {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.capsule {
+  padding: 10px 20px;
+  color: #888;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.capsule.active {
+  background-color: #1e44bf;
+  color: #ffffff;
+}
+
+.tab_wrap {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.tab {
+  color: #888;
+  cursor: pointer;
+}
+.tab.active {
+  color: #1e44bf;
+  border-bottom: 2px solid #1e44bf;
+  padding-bottom: 12px;
+  font-weight: 600;
+}
+
+.top_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.more_btn {
+  display: flex;
+  gap: 10px;
+  color: #888;
+}
+
+.more_btn img {
+  width: 6px;
+  height: 12px;
+}
+
+.nav_btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_btn img {
+  width: 25%;
+}
+
 @media screen and (max-width: 1440px) {
   h1 {
     font-size: 32px;
@@ -145,73 +214,13 @@ section {
   .nav_btn {
     display: none;
   }
-}
 
-.capsule_wrap {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 24px;
-}
+  .capsule {
+    padding: 7px 15px;
+  }
 
-.capsule {
-  padding: 10px 20px;
-  color: #888;
-  border-radius: 30px;
-  cursor: pointer;
-}
-
-.capsule.active {
-  background-color: #1e44bf;
-  color: #ffffff;
-}
-
-.tab_wrap {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 40px;
-}
-
-.tab {
-  color: #888;
-  cursor: pointer;
-}
-.tab.active {
-  color: #1e44bf;
-  border-bottom: 2px solid #1e44bf;
-  padding-bottom: 12px;
-  font-weight: 600;
-}
-
-.top_wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.more_btn {
-  display: flex;
-  gap: 10px;
-  color: #888;
-}
-
-.more_btn img {
-  width: 6px;
-  height: 12px;
-}
-
-.nav_btn {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: #ffffff;
-  border: 1px solid #f5f5f5;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav_btn img {
-  width: 25%;
+  .capsule_wrap {
+    gap: 2px;
+    margin-bottom: 16px;
+  }
 }
