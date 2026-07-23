@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(common.css);
 
+/* HEADER (원본 원복) */
 header {
   width: 100%;
   padding: 20px 150px;
@@ -59,6 +60,7 @@ header {
   border: 1px solid #f5f5f5;
   border-radius: 50px;
   color: #757575;
+<<<<<<< HEAD
 }
 .profile_wrap {
   display: none;
@@ -66,6 +68,8 @@ header {
 
 .mobile_none a {
   display: none;
+=======
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
 }
 
 .search_icon {
@@ -239,10 +243,13 @@ a .d_day {
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 .mobile_banner_description {
   display: none;
 }
 
+=======
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
 .dots {
   display: flex;
   gap: 6px;
@@ -767,6 +774,7 @@ footer {
 
 .footer_links h6,
 .sns_links h6 {
+<<<<<<< HEAD
   color: #757575;
 }
 
@@ -788,11 +796,28 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 10px;
+=======
+  color: #888;
+}
+
+.footer_bottom {
+  position: relative;
+  line-height: 1.8;
+  color: #757575;
+}
+
+.company_info {
+  margin-bottom: 16px;
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
 }
 
 .company_info h4 {
   color: #2b2b2b;
+<<<<<<< HEAD
   margin-bottom: 10px;
+=======
+  margin-bottom: 4px;
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
 }
 
 .company_info h6 {
@@ -800,6 +825,7 @@ footer {
 }
 
 .copyright {
+<<<<<<< HEAD
   color: #a7a7a7;
 }
 
@@ -814,11 +840,23 @@ footer {
 .img_wrap_footer {
   display: flex;
   align-items: center;
+=======
+  margin-top: 20px;
+  color: #757575;
+}
+
+.footer_right_brand {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
 }
 
 .cert_icons {
   display: flex;
   gap: 10px;
+<<<<<<< HEAD
   align-items: center;
 }
 
@@ -829,6 +867,15 @@ footer {
 .brand_logo {
   opacity: 40%;
   width: 355px;
+=======
+  margin-bottom: 12px;
+  color: #757575;
+}
+
+.brand_logo h2 {
+  color: #757575;
+  font-weight: 800;
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
 }
 
 @media screen and (max-width: 1280px) {
@@ -911,10 +958,13 @@ footer {
     font-size: 12px;
   }
 
+<<<<<<< HEAD
   .d_day {
     display: none;
   }
 
+=======
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
   .con_wrap_3 {
     overflow: hidden;
     justify-content: flex-start;
@@ -942,10 +992,13 @@ footer {
   .con_wrap_5 {
     flex-direction: column;
   }
+<<<<<<< HEAD
   .footer_top {
     flex-wrap: wrap;
     gap: 15px;
   }
+=======
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
 
   .link_btn {
     padding: 15px 10px;
@@ -957,6 +1010,7 @@ footer {
 
   .entrance_banner img {
     width: 100%;
+<<<<<<< HEAD
     height: 100%;
     object-fit: cover;
   }
@@ -972,6 +1026,11 @@ footer {
   .img_wrap_footer:nth-child(2) {
     width: 44px;
   }
+=======
+    max-height: 200px;
+    object-fit: cover;
+  }
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
 }
 
 @media screen and (max-width: 767px) {
@@ -979,10 +1038,15 @@ footer {
     padding: 12px 16px;
   }
 
+<<<<<<< HEAD
   .profile_wrap {
     display: flex;
     width: 24px;
     height: 24px;
+=======
+  .header_top {
+    margin-bottom: 8px;
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
   }
 
   .logo_wrap {
@@ -993,13 +1057,19 @@ footer {
     padding: 4px 10px;
   }
 
+<<<<<<< HEAD
   .search_bar a {
     display: none;
     width: 200px;
+=======
+  .search_bar {
+    width: 150px;
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
     margin-top: 8px;
     padding: 6px 14px;
   }
 
+<<<<<<< HEAD
   .header_top {
     display: flex;
     width: 100%;
@@ -1017,15 +1087,24 @@ footer {
   .header_bottom_left {
     width: 100%;
     justify-content: space-between;
+=======
+  .header_bottom {
+    display: none;
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
   }
 
   .con_top_wrap_1 {
     flex-direction: column;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
   .banner_description {
     display: none;
   }
 
+<<<<<<< HEAD
   .menu_wrap {
     display: none;
   }
@@ -1034,6 +1113,8 @@ footer {
     display: none;
   }
 
+=======
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
   .section_1 {
     padding: 40px 0;
     margin-top: 40px;
@@ -1179,6 +1260,7 @@ footer {
   }
 
   .con_5 h4 {
+<<<<<<< HEAD
     height: 16px;
   }
 
@@ -1188,6 +1270,9 @@ footer {
 
   .tab_wrap {
     gap: 15px;
+=======
+    height: 12px;
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
   }
 
   .wrap_6 .nav_btn {
@@ -1230,6 +1315,7 @@ footer {
 
   .footer_links {
     flex-wrap: wrap;
+<<<<<<< HEAD
     gap: 15px;
   }
 
@@ -1259,5 +1345,14 @@ footer {
 
   .img_wrap_footer:nth-child(2) {
     width: 36px;
+=======
+    gap: 12px;
+  }
+
+  .footer_right_brand {
+    position: static;
+    margin-top: 20px;
+    text-align: left;
+>>>>>>> d300ec17651383d025d6bed753c1aa59dd59e0ab
   }
 }
