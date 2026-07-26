@@ -18,3 +18,40 @@ const likeBtnClick = (e) => {
 for (let i = 0; i < likeBtn.length; i++) {
   likeBtn[i].addEventListener("click", likeBtnClick);
 }
+// 하트 클릭 이벤트
+
+const capsuleBtn = document.querySelectorAll(".capsule");
+
+const capsuleBtnClick = (e) => {
+  const target = e.currentTarget;
+
+  if (target.classList.contains("active")) {
+    target.classList.remove("active");
+    return;
+  }
+
+  for (let i = 0; i < capsuleBtn.length; i++) {
+    capsuleBtn[i].classList.remove("active");
+  }
+
+  target.classList.add("active");
+};
+
+for (let i = 0; i < capsuleBtn.length; i++) {
+  capsuleBtn[i].addEventListener("click", capsuleBtnClick);
+}
+
+//캡슐 클릭 이벤트
+
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: ".pagination",
+  },
+  autoplay: {
+    delay: 2000,
+  },
+});
