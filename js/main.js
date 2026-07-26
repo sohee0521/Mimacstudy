@@ -1,7 +1,7 @@
 const likeBtn = document.querySelectorAll(".heart_wrap");
 
-const emptyHeart = '<img src="/img/heart_stroke.png" alt="찜 취소" />';
-const fillHeart = '<img src="/img/heart_fill.png" alt="찜" />';
+const emptyHeart = '<img src="./img/heart_stroke.png" alt="찜 취소" />';
+const fillHeart = '<img src="./img/heart_fill.png" alt="찜" />';
 
 const likeBtnClick = (e) => {
   const target = e.currentTarget;
