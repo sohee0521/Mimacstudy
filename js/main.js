@@ -44,10 +44,8 @@ for (let i = 0; i < capsuleBtn.length; i++) {
 //캡슐 클릭 이벤트
 
 const swiper = new Swiper(".swiper", {
-  // Optional parameters
   loop: true,
 
-  // If we need pagination
   pagination: {
     el: ".pagination",
   },
